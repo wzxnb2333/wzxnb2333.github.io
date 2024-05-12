@@ -28,23 +28,28 @@
         
         nav {
             margin-bottom: 20px;
+            text-align: center;
         }
         
         nav ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
-            text-align: center;
         }
         
         nav ul li {
             display: inline;
-            margin-right: 10px;
+            margin-right: 20px;
         }
         
         nav ul li a {
             text-decoration: none;
             color: #333;
+            transition: color 0.3s ease; /* 添加颜色过渡效果 */
+        }
+        
+        nav ul li a:hover {
+            color: #ff6600; /* 当鼠标悬停时改变颜色 */
         }
         
         /* 更多样式可以根据需要添加 */
@@ -68,6 +73,8 @@
         <script>
             // JavaScript代码可以在这里添加
             // 比如交互功能或者处理表单提交等
+            // 但是需要注意，我们会在此处添加一些简单的动画效果
+            // 比如鼠标悬停在导航链接上时，链接的颜色会发生变化（在CSS中已经实现）
         </script>
     </div>
 </body>
